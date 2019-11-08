@@ -7,7 +7,7 @@
 #ifndef _COMPLIANCE_TEST_H
 #define _COMPLIANCE_TEST_H
 
-#include "sw/vendor/riscv_compliance/riscv-test-env/p/riscv_test.h"
+#include "riscv_test.h"
 
 //-----------------------------------------------------------------------
 // RV Compliance Macros

@@ -8,10 +8,11 @@
 #include "uart.h"
 
 #define SIM_TERM_ADDR 0x10008000
+extern uint32_t begin_signature[];
+extern uint32_t end_signature[];
 
 void dump_signature(void) {
-  extern uint32_t begin_signature[];
-  extern uint32_t end_signature[];
+
 
   uint32_t size = end_signature - begin_signature;
   uart_init(UART_BAUD_RATE);
